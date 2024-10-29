@@ -29,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final List<Widget> _pages = [
     Center(child: Text("Home Page", style: TextStyle(fontSize: 24))),
     Center(child: Text("About Page", style: TextStyle(fontSize: 24))),
-    Center(child: Text("Biodata Page\nName: Rafi\nAge: 20\nNRP: 220414014", style: TextStyle(fontSize: 24))),
+    Center(child: Text("Biodata Page\nName: Rafi Aryasuta\nNRP: 220414014\nKelas: 3IF-1", style: TextStyle(fontSize: 24))),
     Center(child: Text("Contact Me\nEmail: rafi@gmail.com\nPhone: 123-456-789", style: TextStyle(fontSize: 24))),
   ];
 
@@ -127,7 +127,7 @@ class _HomeScreenState extends State<HomeScreen> {
             label: 'Biodata',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.contact_mail, color: Colors.blue), // Blue color for Contact icon
+            icon: Icon(Icons.contact_mail),
             label: 'Contact',
           ),
         ],
